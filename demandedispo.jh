@@ -1,0 +1,27 @@
+
+entity DemandeMiseDisposition {
+  matricule Integer
+  datedemande LocalDate
+  datedebutmisedisposition LocalDate
+  datefinmisedisposition LocalDate
+  heurdebut LocalDate
+  heurfin LocalDate
+  motif String
+  typevehicule String
+  lieudepart String
+  lieuarrive String
+  division String
+  services String
+  nombrebenificiaire Integer
+  beneficiaire String
+  piecejointes Blob
+  statutdis String
+}
+
+
+
+
+paginate DemandeMiseDisposition  with pagination
+
+service all with serviceClass
+microservice * with demandemisdisposition

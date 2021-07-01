@@ -1,0 +1,83 @@
+{
+  "name": "DemandeMiseDisposition",
+  "fields": [
+    {
+      "fieldName": "matricule",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "datedemande",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "datedebutmisedisposition",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "datefinmisedisposition",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "heurdebut",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "heurfin",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "motif",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "typevehicule",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "lieudepart",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "lieuarrive",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "division",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "services",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "nombrebenificiaire",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "beneficiaire",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "piecejointes",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "any"
+    },
+    {
+      "fieldName": "statutdis",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20210611140322",
+  "entityTableName": "demande_mise_disposition",
+  "dto": "no",
+  "pagination": "pagination",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "demandemisdisposition",
+  "applications": "*",
+  "microserviceName": "demandemisdisposition"
+}
